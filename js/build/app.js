@@ -14,9 +14,21 @@ var _Logo2 = _interopRequireDefault(_Logo);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var headers = localStorage.getItem('headers');
+var data = localStorage.getItem('data');
+
+if (!headers) {
+	headers = ['Title', 'Year', 'Rating', 'Comments'];
+	data = ['Test', '1959', '5', 'foo'];
+}
+
 _reactDom2.default.render(_react2.default.createElement(
-	'h1',
+	'div',
 	null,
-	_react2.default.createElement(_Logo2.default, null),
-	' Welcome to the App'
+	_react2.default.createElement(
+		'h1',
+		null,
+		_react2.default.createElement(_Logo2.default, null),
+		' Welcome to the App'
+	)
 ), document.getElementById('app'));
