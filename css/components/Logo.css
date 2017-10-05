@@ -1,0 +1,8 @@
+.Logo {
+    background: url('images/logo.png') no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    display: inline-block;
+}
