@@ -1,0 +1,12 @@
+{
+  "name": "my-react",
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest"
+  },
+  "author": "KseniaLass",
+  "license": "MIT"
+}
