@@ -2,11 +2,15 @@
   "name": "my-react",
   "version": "0.0.1",
   "dependencies": {
-    "react": "latest",
-    "react-dom": "latest",
     "babel-preset-es2015": "latest",
-    "babel-preset-react": "latest"
+    "babel-preset-react": "latest",
+    "prop-types": "^15.6.0",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "author": "KseniaLass",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "classnames": "^2.2.5"
+  }
 }
