@@ -1,0 +1,7 @@
+.Rating span {
+    cursor: pointer;
+    color: #e91e63;
+}
+.Rating span.RatingOn {
+    color: yellow;
+}
